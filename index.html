@@ -32,15 +32,13 @@
             border-radius: 8px;
         }
         .btn {
+            display: inline-block;
             background: #3b82f6;
-            padding: 20px 20px;
+            padding: 12px 20px;
             color: white;
             text-decoration: none;
-            border-radius: 20px;
-            
-        }
-        .spaced-button {
-            margin-bottom: 20px; /* Adds 20 pixels of space below the paragraph */
+            border-radius: 10px;
+            margin-top: 15px;
         }
     </style>
 </head>
@@ -60,73 +58,76 @@
     <a class="btn" href="#projects">View Projects</a>
 </section>
 
-
-
-    <!--- PROJECTS BELOW ---->
 <section id="projects">
     <h2>Business Systems Analyst Portfolio</h2>
 
+    <!-- Project 1 -->
     <div class="card">
-        <h3>Lunai Operations Dashboard (Power BI)</h3>
+        <h3>Project 1 — Patient Visit Dataset & SQL Modeling</h3>
         <p>
-        Designed operational dashboard analyzing patient visits, workflow efficiency,
-        and service trends. Built using structured SQL dataset and Power BI modeling.
+            Created a structured patient + appointment dataset to support analytics and operational reporting (fictional data).
+            Demonstrated SQL querying, filtering, and transformation for insights.
         </p>
-
-        <ul style="text-align:left; max-width:800px; margin:auto;">
-            <li>Created DAX measures for KPI tracking</li>
-            <li>Modeled relational dataset from Excel source</li>
-            <li>Visualized visit trends and performance metrics</li>
-        </ul>
-
-        <a href="https://github.com/incognitosudo/incognitosudo.github.io/blob/main/dashboard%20screenshot.png" target="_blank">
-
-        </a>
-    </div>
-
-    <div class="card">
-        <h3>Lunai Integration Hub API (.NET + SQL)</h3>
-        <p>
-        Developed ASP.NET Core Web API for tracking patient visits and automating reporting workflows.
-        </p>
-
-        <ul style="text-align:left; max-width:800px; margin:auto;">
-            <li>Connected to SQL Server database</li>
-            <li>Built REST endpoints for CRUD operations</li>
-            <li>Enabled structured data access for reporting</li>
-        </ul>
- 
-        <a class="btn" href="https://github.com/incognitosudo/LunaiWellnessApp" target="_blank">
-        View GitHub Repo
-        </a>
-    </div>
-
-   <div class="card">
-        <h3>Patient Visit Dataset & SQL Modeling</h3>
-        <p>
-        Created a structured patient + appointment dataset to support analytics and operational reporting (fictional data).
-        Demonstrated SQL querying, filtering, and transformation for insights.
-        </p>
-
         <ul style="text-align:left; max-width:800px; margin:auto;">
             <li>Designed patient + appointment fields for analysis (status, diagnosis, visit dates)</li>
             <li>Wrote SQL queries for trends, filters, and operational reporting outputs</li>
             <li>Prepared clean dataset structures for Power BI consumption</li>
         </ul>
- </div></div>
-        <a class="btn" href="https://github.com/incognitosudo/LunaiIntegrationHub/" target="_blank">
-            View Dataset + SQL
-        </a>
+        <a class="btn" href="https://github.com/incognitosudo/LunaiIntegrationHub" target="_blank">View Dataset + SQL</a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="card">
+        <h3>Project 2 — Lunai Operations Dashboard (Power BI)</h3>
+        <p>
+            Designed an operational dashboard analyzing patient visits, workflow efficiency,
+            and service trends. Built using structured dataset and Power BI modeling.
+        </p>
+        <ul style="text-align:left; max-width:800px; margin:auto;">
+            <li>Created DAX measures for KPI tracking</li>
+            <li>Modeled relational dataset from Excel source</li>
+            <li>Visualized visit trends and performance metrics</li>
+        </ul>
+        <!-- IMPORTANT: Put the screenshot image file inside your website repo in /images/dashboard_screenshot.png -->
+        <a class="btn" href="images/dashboard_screenshot.png" target="_blank">View Dashboard Screenshot</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="card">
+        <h3>Project 3 — Lunai Integration Hub API (.NET + SQL + JSON)</h3>
+        <p>
+            Developed an ASP.NET Core Web API to standardize clinic operational data (appointments + inventory)
+            with validated JSON inputs and Swagger documentation.
+        </p>
+        <ul style="text-align:left; max-width:800px; margin:auto;">
+            <li>Built REST endpoints for appointments/inventory (CRUD) with validation + error handling</li>
+            <li>Documented and tested endpoints using Swagger/OpenAPI</li>
+            <li>Modeled change request workflow (ticket-style) with status updates + audit trail</li>
+        </ul>
+        <a class="btn" href="https://github.com/incognitosudo/LunaiIntegrationHub" target="_blank">View GitHub Repo</a>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="card">
+        <h3>Project 4 — SQL Integrity + Validation Pack + Reporting Views + Runbook</h3>
+        <p>
+            Built a SQL Server operational database with data standards, integrity constraints,
+            repeatable data-quality checks, Power BI-ready reporting views, and a superuser guide.
+        </p>
+        <ul style="text-align:left; max-width:800px; margin:auto;">
+            <li>Implemented FK + CHECK constraints (status rules, non-negative inventory)</li>
+            <li>Created reporting views for trends, top diagnoses, demographics, and low-stock action list</li>
+            <li>Created a validation stored procedure (PASS/FAIL checks) + superuser runbook</li>
+        </ul>
+        <a class="btn" href="https://github.com/incognitosudo/LunaiIntegrationHub" target="_blank">View SQL + Documentation</a>
     </div>
 
 </section>
-
 
 <section id="contact">
     <h2>Contact</h2>
     <p>Email: gfranco.mg@gmail.com</p>
     <p>Phone: 858.335.9523</p>
-   
 </section>
 
 </body>
