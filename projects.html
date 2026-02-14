@@ -2,13 +2,14 @@
 <html>
 <head>
     <title>Projects | Mary Grace F. DeGuzman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
             background-color: #0f172a;
             color: white;
             text-align: center;
-            margin: 0;
         }
         nav {
             background: #1e293b;
@@ -22,19 +23,24 @@
         }
         .card {
             background: #1e293b;
-            padding: 20px;
-            margin: 20px auto;
+            padding: 25px;
+            margin: 25px auto;
             width: 80%;
-            border-radius: 8px;
+            border-radius: 10px;
         }
         .btn {
             display: inline-block;
             background: #3b82f6;
-            padding: 12px 20px;
+            padding: 12px 22px;
             color: white;
             text-decoration: none;
-            border-radius: 10px;
+            border-radius: 12px;
             margin-top: 15px;
+        }
+        ul {
+            text-align: left;
+            max-width: 800px;
+            margin: 15px auto 0 auto;
         }
     </style>
 </head>
@@ -50,26 +56,46 @@
 <h1 style="margin-top:40px;">Projects</h1>
 
 <div class="card">
-    <h3>Project 1 Patient Visit Dataset & SQL Modeling</h3>
-    <p>Structured fictional patient + appointment dataset. SQL queries for trends, filters, and operational outputs.</p>
-    <a class="btn" href="https://github.com/incognitosudo/LunaiIntegrationHub" target="_blank">View Dataset + SQL</a>
+    <h3>Project 1 — LunaiWellnessApp (ASP.NET Core MVC CRUD)</h3>
+    <p>ASP.NET Core MVC web app foundation for fictional patient visits and appointment workflows.</p>
+    <ul>
+        <li>MVC structure (Models/Views/Controllers)</li>
+        <li>CRUD patterns for operational records</li>
+        <li>Designed for maintainable business workflows</li>
+    </ul>
+    <a class="btn" href="https://github.com/incognitosudo/LunaiWellnessApp" target="_blank">View GitHub Repo</a>
 </div>
 
 <div class="card">
-    <h3>Project 2 Lunai Operations Dashboard (Power BI)</h3>
-    <p>Operational dashboard with KPIs, trends, demographics, and top diagnoses.</p>
+    <h3>Project 2 — Lunai Operations Dashboard (Power BI)</h3>
+    <p>Operational dashboard with KPIs, trends, and service insights using Power BI modeling.</p>
+    <ul>
+        <li>DAX measures for KPI tracking</li>
+        <li>Relational dataset modeling</li>
+        <li>Trend and performance visualizations</li>
+    </ul>
     <a class="btn" href="images/dashboard_screenshot.png" target="_blank">View Dashboard Screenshot</a>
 </div>
 
 <div class="card">
-    <h3>Project 3 Lunai Integration Hub API (.NET + SQL + JSON)</h3>
-    <p>ASP.NET Core Web API (appointments + inventory) with validation, Swagger documentation, and integration-ready JSON contracts.</p>
+    <h3>Project 3 — LunaiIntegrationHub (ASP.NET Core Web API + JSON)</h3>
+    <p>ASP.NET Core Web API for appointments + inventory with validation and Swagger documentation.</p>
+    <ul>
+        <li>REST endpoints (CRUD) with validation + error handling</li>
+        <li>Swagger/OpenAPI documentation</li>
+        <li>Integration-ready JSON contracts</li>
+    </ul>
     <a class="btn" href="https://github.com/incognitosudo/LunaiIntegrationHub" target="_blank">View GitHub Repo</a>
 </div>
 
 <div class="card">
-    <h3>Project 4 SQL Integrity + Validation Pack + Reporting Views + Runbook</h3>
-    <p>SQL schema constraints + data-quality stored procedure + Power BI-ready views + superuser documentation.</p>
+    <h3>Project 4 — SQL Integrity + Validation Pack + Reporting Views + Runbook</h3>
+    <p>SQL Server schema constraints + validation stored procedure + reporting views + superuser documentation.</p>
+    <ul>
+        <li>Data integrity (FK/CHECK constraints)</li>
+        <li>Reporting views for Power BI consumption</li>
+        <li>Validation checks + runbook for supportability</li>
+    </ul>
     <a class="btn" href="https://github.com/incognitosudo/LunaiIntegrationHub" target="_blank">View SQL + Documentation</a>
 </div>
 
