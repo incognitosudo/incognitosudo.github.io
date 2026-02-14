@@ -2,13 +2,13 @@
 <html>
 <head>
     <title>Projects | Mary Grace F. DeGuzman</title>
-    <link rel="stylesheet" href="style.css">
     <style>
         body {
-            font-family: Arial;
+            font-family: Arial, sans-serif;
             background-color: #0f172a;
             color: white;
             text-align: center;
+            margin: 0;
         }
         nav {
             background: #1e293b;
@@ -27,6 +27,15 @@
             width: 80%;
             border-radius: 8px;
         }
+        .btn {
+            display: inline-block;
+            background: #3b82f6;
+            padding: 12px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
     </style>
 </head>
 <body>
@@ -38,74 +47,31 @@
     <a href="contact.html">Contact</a>
 </nav>
 
-<h1>Projects</h1>
+<h1 style="margin-top:40px;">Projects</h1>
 
-
-<!-- #1 done -->
 <div class="card">
-    <h3>Lunai Operations Dashboard (Power BI)</h3>
-    <p>Designed operational dashboard analyzing patient visits, workflow efficiency,
-        and service trends. Built using structured SQL dataset and Power BI modeling.</p>
-    <a href="incognitosudo.github.io/dashboard_screenshot.png" target="_blank">
-        View Source Code
-    </a>
+    <h3>Project 1 — Patient Visit Dataset & SQL Modeling</h3>
+    <p>Structured fictional patient + appointment dataset. SQL queries for trends, filters, and operational outputs.</p>
+    <a class="btn" href="https://github.com/incognitosudo/LunaiIntegrationHub" target="_blank">View Dataset + SQL</a>
 </div>
 
-
-<!-- #2 --> 
 <div class="card">
-    <h3>Lunai Integration Hub API (.NET + SQL)</h3>
-    <p>ASP.NET Core Web API with SQL Server backend.</p>
-    <a href="https://github.com/incognitosudo/LunaiIntegrationHub" target="_blank">
-        View Source Code
-    </a>
+    <h3>Project 2 — Lunai Operations Dashboard (Power BI)</h3>
+    <p>Operational dashboard with KPIs, trends, demographics, and top diagnoses.</p>
+    <a class="btn" href="images/dashboard_screenshot.png" target="_blank">View Dashboard Screenshot</a>
 </div>
 
-<!-- #3 -->
 <div class="card">
-    <h3>Lunai Systems API</h3>
-    <p>ASP.NET Core Web API with SQL Server backend.</p>
-    <a href="https://github.com/incognitosudo/LunaiWellnessApp" target="_blank">
-        View Source Code
-    </a>
+    <h3>Project 3 — Lunai Integration Hub API (.NET + SQL + JSON)</h3>
+    <p>ASP.NET Core Web API (appointments + inventory) with validation, Swagger documentation, and integration-ready JSON contracts.</p>
+    <a class="btn" href="https://github.com/incognitosudo/LunaiIntegrationHub" target="_blank">View GitHub Repo</a>
 </div>
 
-
-<!-- #4 -->
 <div class="card">
-    <h3>Lunai Systems API</h3>
-    <p>ASP.NET Core Web API with SQL Server backend.</p>
-    <a href="https://github.com/incognitosudo/LunaiWellnessApp" target="_blank">
-        View Source Code
-    </a>
+    <h3>Project 4 — SQL Integrity + Validation Pack + Reporting Views + Runbook</h3>
+    <p>SQL schema constraints + data-quality stored procedure + Power BI-ready views + superuser documentation.</p>
+    <a class="btn" href="https://github.com/incognitosudo/LunaiIntegrationHub" target="_blank">View SQL + Documentation</a>
 </div>
 
-
-
-<!----- DELETE BELOW----->
-
-
-
-
-
-   <div class="card">
-        <h3>Patient Visit Dataset & SQL Modeling</h3>
-        <p>
-        Created a structured patient + appointment dataset to support analytics and operational reporting (fictional data).
-        Demonstrated SQL querying, filtering, and transformation for insights.
-        </p>
-
-        <ul style="text-align:left; max-width:800px; margin:auto;">
-            <li>Designed patient + appointment fields for analysis (status, diagnosis, visit dates)</li>
-            <li>Wrote SQL queries for trends, filters, and operational reporting outputs</li>
-            <li>Prepared clean dataset structures for Power BI consumption</li>
-        </ul>
- </div></div>
-        <a class="btn" href="https://github.com/incognitosudo/LunaiIntegrationHub/" target="_blank">
-            View Dataset + SQL
-        </a>
-    </div>
-
-    
 </body>
 </html>
